@@ -21,9 +21,9 @@ end
 --Script Configuration, check instructions here: https://github.com/29988122/Fate-Grand-Order_Lua/wiki/Script-configuration-English
 --***************************************************************************
 --AutoRefill Stamina
-Refill_Enabled = 0
+Refill_Enabled = 1
 Refill_Resource = "All Apples"
-Refill_Repetitions = 0
+Refill_Repetitions = 100
 
 --AutoSupportSelection
 Support_SelectionMode = "first"
@@ -54,15 +54,15 @@ StorySkip = 0 --[[
 ]]
 
 --AutoSkill
-Enable_Autoskill = 0
+Enable_Autoskill = 1
 Skill_Confirmation = 0
 Skill_Command = "abc,#,def,#,ghi"
 
 --AutoSkillList
-Enable_Autoskill_List = 0
+Enable_Autoskill_List = 1
 
 Autoskill_List[1][1] = "Settings No.1"
-Autoskill_List[1][2] = "abc,#,def,#,ghi"
+Autoskill_List[1][2] = "a4,#,cdhi4,#,e2fg25"
 
 Autoskill_List[2][1] = "Settings No.2"
 Autoskill_List[2][2] = ""
@@ -96,7 +96,7 @@ Battle_CardPriority = "BAQ"
 --AutoChooseTarget
 Battle_AutoChooseTarget = 1
 --NoblePhantasm Casting
-Battle_NoblePhantasm = "disabled" 
+Battle_NoblePhantasm = "danger" 
 --FastSkipDeadAnimation
 UnstableFastSkipDeadAnimation = 0
 
