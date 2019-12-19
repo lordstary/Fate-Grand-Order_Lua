@@ -27,13 +27,13 @@ Refill_Repetitions = 100
 
 --AutoSupportSelection
 Support_SelectionMode = "preferred"
-Support_SwipesPerUpdate = 10
+Support_SwipesPerUpdate = 4
 Support_MaxUpdates = 20
 Support_FallbackTo = "first"
 Support_FriendsOnly = 0
 Support_FriendNames = ""
-Support_PreferredServants = "waver4.png, waver3.png, waver2.png, waver1.png"
-Support_PreferredCEs = "*Christmas.png"
+Support_PreferredServants = "waver3.png"
+Support_PreferredCEs = "Christmas.png"
 
 --Bond CE Get
 StopAfterBond10 = 0--[[
