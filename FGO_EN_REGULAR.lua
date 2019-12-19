@@ -26,14 +26,14 @@ Refill_Resource = "All Apples"
 Refill_Repetitions = 100
 
 --AutoSupportSelection
-Support_SelectionMode = "first"
+Support_SelectionMode = "preferred"
 Support_SwipesPerUpdate = 10
-Support_MaxUpdates = 3
-Support_FallbackTo = "manual"
+Support_MaxUpdates = 20
+Support_FallbackTo = "first"
 Support_FriendsOnly = 0
 Support_FriendNames = ""
 Support_PreferredServants = "waver4.png, waver3.png, waver2.png, waver1.png"
-Support_PreferredCEs = "*chaldea_lunchtime.png"
+Support_PreferredCEs = "*Christmas.png"
 
 --Bond CE Get
 StopAfterBond10 = 0--[[
@@ -62,7 +62,7 @@ Skill_Command = "abc,#,def,#,ghi"
 Enable_Autoskill_List = 1
 
 Autoskill_List[1][1] = "Settings No.1"
-Autoskill_List[1][2] = "a4,#,cdhi4,#,e2fg25"
+Autoskill_List[1][2] = "a4,#,cdhi4,#,e2fg2k25"
 
 Autoskill_List[2][1] = "Settings No.2"
 Autoskill_List[2][2] = ""
