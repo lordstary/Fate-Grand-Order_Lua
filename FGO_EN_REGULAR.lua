@@ -22,7 +22,7 @@ end
 --***************************************************************************
 --AutoRefill Stamina
 Refill_Enabled = 1
-Refill_Resource = "All Apples"
+Refill_Resource = "Gold"
 Refill_Repetitions = 100
 
 --AutoSupportSelection
@@ -65,7 +65,7 @@ Autoskill_List[1][1] = "Settings No.1"
 Autoskill_List[1][2] = "a4,#,cdhi4,#,e2fg2k25"
 
 Autoskill_List[2][1] = "Settings No.2"
-Autoskill_List[2][2] = ""
+Autoskill_List[2][2] = "cf4,#,a3bcx11ac3degi5,#,j6"
 
 Autoskill_List[3][1] = "Settings No.3"
 Autoskill_List[3][2] = ""
@@ -94,9 +94,9 @@ Autoskill_List[10][2] = ""
 --Card Priority Customization
 Battle_CardPriority = "BAQ"
 --AutoChooseTarget
-Battle_AutoChooseTarget = 1
+Battle_AutoChooseTarget = 0
 --NoblePhantasm Casting
-Battle_NoblePhantasm = "danger" 
+Battle_NoblePhantasm = "disabled" 
 --FastSkipDeadAnimation
 UnstableFastSkipDeadAnimation = 0
 
