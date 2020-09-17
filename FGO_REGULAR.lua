@@ -4,9 +4,9 @@ GameRegion = "EN"
 --Script Configuration, check instructions in the documentation: https://29988122.github.io/Fate-Grand-Order_Lua/#/features
 --***************************************************************************
 --AutoRefill Stamina
-Refill_Enabled = 0
+Refill_Enabled = 1
 Refill_Resource = "All Apples"
-Refill_Repetitions = 0
+Refill_Repetitions = 50
 
 --AutoSupportSelection Defaults
 Support_SelectionMode = "first"
